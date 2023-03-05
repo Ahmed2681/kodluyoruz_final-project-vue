@@ -1,10 +1,11 @@
 <script setup>
-
+import HeaderPage from '@/components/HeaderPages.vue'
+import FooterPage from '@/components/FooterPages.vue'
 </script>
 
 <template>
-  <main>
-    <h1>MERHABA</h1>
-    <a href="/">ab</a>
+  <main class="h-full w-full">
+    <header-page />
+    <footer-page />
   </main>
 </template>
