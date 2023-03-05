@@ -24,7 +24,7 @@
         </div>
         &nbsp;&nbsp;
         <div class="rounded-full pl-3 pr-3 pt-1 pb-1 hover:bg-green-500 hover:text-white">
-          <a href="./contactUs.html"><li class="italic">İletişim</li></a>
+          <a href="./contact"><li class="italic">İletişim</li></a>
         </div>
       </ul>
     </nav>
