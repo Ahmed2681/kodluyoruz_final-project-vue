@@ -39,7 +39,7 @@
       </div>
       <!-- logo -->
       <div class="flex justify-center mobile-l:w-[30%] md:w-[40%]">
-        <a href="./index.html"><img width="400" src="./img/logo.png" alt="logo.png" /></a>
+        <a href="./index.html"><img width="400" src="../img/logo.png" alt="logo.png" /></a>
       </div>
       <!-- address -->
       <div class="flex flex-col items-center mobile-l:w-[45%] md:w-[35%]">

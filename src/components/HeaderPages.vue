@@ -8,7 +8,7 @@
     <!-- logo -->
     <div class="w-[28%] pl-[3%]">
       <a href="./index.html">
-        <img width="200" src="./img/logo.png" alt="logo.png" />
+        <img width="200" src="../img/logo.png" alt="logo.png" />
       </a>
     </div>
     <!-- navbar -->
