@@ -4,11 +4,16 @@ import FooterPage from '@/components/FooterPages.vue'
 import { onMounted } from 'vue'
 
 onMounted(() => {
-  const element = document.getElementById('main-video')
+  const video = document.getElementById('main-video')
 
-  element.scrollIntoView({ behavior: 'smooth' })
+  video.scrollIntoView({ behavior: 'smooth' })
 })
 
+const goMain = () => {
+  const main = document.getElementById('main')
+
+  main.scrollIntoView({ behavior: 'smooth' })
+}
 </script>
 
 <template>
@@ -45,8 +50,8 @@ onMounted(() => {
               class="absolute flex w-full flex-col items-center justify-center text-center mobile-s:pt-[50%] md:pt-[40%]"
             >
               <p
-                onclick="goMain()"
-                class="text-green-500 hover:text-cyan-300 mobile-s:text-[50] md:text-[100px]"
+                @click="goMain()"
+                class="text-green-500 hover:text-cyan-300 mobile-s:text-[50] md:text-[100px] cursor-pointer"
               >
                 ꜜ
               </p>

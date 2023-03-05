@@ -1,13 +1,14 @@
 <script setup></script>
 
 <template>
+  <router-view />
   <div
     id="header"
     class="flex min-h-[100px] flex-row items-center justify-center bg-green-100 text-center"
   >
     <!-- logo -->
     <div class="w-[28%] pl-[3%]">
-      <a href="./index.html">
+      <a href="/">
         <img width="200" src="../img/logo.png" alt="logo.png" />
       </a>
     </div>
@@ -15,7 +16,7 @@
     <nav class="flex w-[57%] items-center justify-center">
       <ul class="flex flex-row">
         <div class="rounded-full pl-3 pr-3 pt-1 pb-1 hover:bg-green-500 hover:text-white">
-          <a href="./aboutUs.html"><li class="italic">Hakkımızda</li></a>
+          <a href="./about"><li class="italic">Hakkımızda</li></a>
         </div>
         &nbsp;&nbsp;
         <div class="rounded-full pl-3 pr-3 pt-1 pb-1 hover:bg-green-500 hover:text-white">
