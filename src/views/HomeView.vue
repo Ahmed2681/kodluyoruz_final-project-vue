@@ -1,15 +1,23 @@
 <script setup>
 import HeaderPage from '@/components/HeaderPages.vue'
 import FooterPage from '@/components/FooterPages.vue'
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  const element = document.getElementById('main-video')
+
+  element.scrollIntoView({ behavior: 'smooth' })
+})
+
 </script>
 
 <template>
-  <main class="h-full w-full">
+  <body class="h-full w-full">
     <header>
       <header-page />
     </header>
 
-    <body>
+    <main>
       <div class="w-full bg-cyan-50">
         <section class="static">
           <div>
@@ -51,10 +59,10 @@ import FooterPage from '@/components/FooterPages.vue'
           </div>
         </article>
       </div>
-    </body>
+    </main>
 
     <footer>
       <footer-page />
     </footer>
-  </main>
+  </body>
 </template>
