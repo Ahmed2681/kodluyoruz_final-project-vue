@@ -9,7 +9,7 @@
           <li class="p-0 text-lg font-[600]">Sayfalar</li>
           <hr class="mb-[15%] w-32 border-green-500" />
           <li class="mb-[5%]">
-            <a href="./aboutUs.html">
+            <a href="./about">
               <div
                 class="rounded-full pr-2 pt-1 pb-1 hover:ml-[5%] hover:w-auto hover:bg-green-500 hover:pl-3 hover:text-center hover:text-white"
               >
@@ -18,7 +18,7 @@
             </a>
           </li>
           <li class="mb-[5%]">
-            <a href="./blog.html">
+            <a href="./blog">
               <div
                 class="rounded-full pr-3 pt-1 pb-1 hover:ml-[5%] hover:w-auto hover:bg-green-500 hover:pl-3 hover:text-center hover:text-white"
               >
@@ -27,7 +27,7 @@
             </a>
           </li>
           <li class="mb-[5%]">
-            <a href="./contactUs.html">
+            <a href="./contact">
               <div
                 class="rounded-full pr-3 pt-1 pb-1 hover:ml-[5%] hover:w-full hover:bg-green-500 hover:pl-3 hover:text-center hover:text-white"
               >
@@ -39,7 +39,7 @@
       </div>
       <!-- logo -->
       <div class="flex justify-center mobile-l:w-[30%] md:w-[40%]">
-        <a href="./index.html"><img width="400" src="../img/logo.png" alt="logo.png" /></a>
+        <a href="/"><img width="400" src="../img/logo.png" alt="logo.png" /></a>
       </div>
       <!-- address -->
       <div class="flex flex-col items-center mobile-l:w-[45%] md:w-[35%]">
@@ -55,4 +55,5 @@
       </div>
     </div>
   </div>
+  <router-view />
 </template>
