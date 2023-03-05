@@ -20,7 +20,7 @@
         </div>
         &nbsp;&nbsp;
         <div class="rounded-full pl-3 pr-3 pt-1 pb-1 hover:bg-green-500 hover:text-white">
-          <a href="./blog.html"><li class="italic">Blog</li></a>
+          <a href="./blog"><li class="italic">Blog</li></a>
         </div>
         &nbsp;&nbsp;
         <div class="rounded-full pl-3 pr-3 pt-1 pb-1 hover:bg-green-500 hover:text-white">
