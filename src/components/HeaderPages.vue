@@ -31,7 +31,7 @@
     <!-- log in -->
     <div class="mr-[3%] flex w-[15%] items-end justify-end">
       <div class="rounded-full pl-3 pr-3 pt-1 pb-1 hover:bg-cyan-300 hover:text-white">
-        <a href="./signIn.html">Giriş Yap</a>
+        <a href="./login">Giriş Yap</a>
       </div>
     </div>
   </div>
