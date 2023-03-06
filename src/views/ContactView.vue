@@ -21,7 +21,7 @@ import FooterPage from '@/components/FooterPages.vue'
           <hr
             class="border-[2px] border-b-transparent border-l-transparent border-r-transparent w-full border-dotted border-green-500"
           />
-          <a href="tel:+ 01010101" class="italic hover:text-[#B99B6B]">+ 01010101</a>
+          <a href="tel:+90 (010) 101 01 10" class="italic hover:text-[#B99B6B]">+90 (010) 101 01 10</a>
         </div>
         <div class="pt-[4%]">
           <p class="text-lg font-[600]">E-Mail</p>
