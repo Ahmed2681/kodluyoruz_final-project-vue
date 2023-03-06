@@ -19,21 +19,21 @@ import FooterPage from '@/components/FooterPages.vue'
         <div>
           <p class="text-lg font-[600]">Telefon</p>
           <hr
-            class="border-[2px] border-b-transparent border-l-transparent border-r-transparent w-[90%] border-dotted border-green-500"
+            class="border-[2px] border-b-transparent border-l-transparent border-r-transparent w-full border-dotted border-green-500"
           />
           <a href="tel:+ 01010101">+ 01010101</a>
         </div>
         <div class="pt-[4%]">
           <p class="text-lg font-[600]">E-Mail</p>
           <hr
-            class="border-[2px] border-b-transparent border-l-transparent border-r-transparent w-[90%] border-dotted border-green-500"
+            class="border-[2px] border-b-transparent border-l-transparent border-r-transparent w-full border-dotted border-green-500"
           />
           <a href = "mailto: lorem@ipsum.com">lorem@ipsum.com</a>
         </div>
         <div class="pt-[4%]">
           <p class="text-lg font-[600]">Adres</p>
           <hr
-            class="border-[2px] border-b-transparent border-l-transparent border-r-transparent w-[90%] border-dotted border-green-500"
+            class="border-[2px] border-b-transparent border-l-transparent border-r-transparent w-full border-dotted border-green-500"
           />
           <a href="https://www.google.com/maps" target="_blank">
             <address>
