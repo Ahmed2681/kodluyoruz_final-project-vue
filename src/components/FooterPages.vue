@@ -2,9 +2,11 @@
 
 <template>
   <div class="h-auto w-full bg-green-100">
-    <div class="flex flex-row items-center justify-center pl-[5%] pt-[5%] pb-[5%]">
+    <div class="flex flex-row items-center justify-center pl-0 pt-[5%] pb-[5%] md:pl-[5%]">
       <!-- pages -->
-      <div class="flex w-[25%] items-center justify-center">
+      <div
+        class="flex items-start justify-start w-[100%] md:ml-0 ml-[5%]"
+      >
         <ul class="pr-[10%]">
           <li class="p-0 text-lg font-[600]">Sayfalar</li>
           <hr class="mb-[15%] w-32 border-green-500" />
@@ -38,17 +40,19 @@
         </ul>
       </div>
       <!-- logo -->
-      <div class="flex justify-center mobile-l:w-[30%] md:w-[40%]">
+      <div
+        class="invisible absolute flex w-[90%] mr-0 md:mr-[7%] items-center justify-center md:visible md:static"
+      >
         <a href="/"><img width="400" src="../img/logo.png" alt="logo.png" /></a>
       </div>
       <!-- address -->
-      <div class="flex flex-col items-center mobile-l:w-[45%] md:w-[35%]">
-        <div class="mr-[10%] text-right mobile-l:w-[100%] md:w-[65%]">
+      <div class="flex flex-col items-end justify-end w-[100%] md:mr-0 mr-[5%]">
+        <div class="mr-0 text-right mobile-l:w-[100%] md:mr-[10%] md:w-[65%]">
           <p class="text-lg font-[600]">Adres</p>
           <hr class="mb-[10%] w-auto border-green-500" />
           <a href="https://www.google.com/maps" target="_blank">
             <address>
-              Lorem Mah. Ipsum Dolor Cad. Sit Amet Sokak No: 4 Consectetur/ADİPİSİCİNG
+              Lorem Mah. Ipsum Dolor Cad. Sit Amet Sokak No: 4 Consectetur / ADİPİSİCİNG
             </address>
           </a>
         </div>
