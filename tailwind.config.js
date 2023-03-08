@@ -8,6 +8,9 @@ module.exports = {
         'brown': '#B99B6B',
         'd-brown': '#562B08'
       },
+      boxShadow: {
+        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+      },
       screens: {
         'mobile-s': '320px',
 
