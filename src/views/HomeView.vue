@@ -32,14 +32,14 @@ const goMain = () => {
               </video>
             </div>
             <div
-              class="absolute flex w-full flex-col items-center justify-center pt-[35%] text-center"
+              class="absolute flex w-full flex-col items-center justify-center pt-[30%] md:pt-[35%] text-center"
             >
               <div class="flex h-full w-full flex-col items-center justify-center text-center">
-                <p class="w-[100%] text-center text-xl text-green-500 antialiased md:text-4xl">
+                <p class="w-[100%] text-center text-lg md:text-xl text-green-500 antialiased lg:text-4xl">
                   FİT BİR YAZILIMCI !
                 </p>
                 <p
-                  class="w-[100%] text-center text-green-500 antialiased mobile-s:text-[15px] mobile-m:text-xl md:text-4xl"
+                  class="w-[100%] text-center text-green-500 antialiased mobile-s:text-[15px] md:text-xl lg:text-4xl"
                 >
                   Üzerinde çalışacağın en iyi proje sensin.
                 </p>
@@ -47,11 +47,11 @@ const goMain = () => {
             </div>
 
             <div
-              class="absolute flex w-full flex-col items-center justify-center text-center mobile-s:pt-[50%] md:pt-[40%]"
+              class="absolute flex w-full flex-col items-center justify-center text-center mobile-m:pt-[42%] pt-[44%]"
             >
               <p
                 @click="goMain()"
-                class="text-green-500 hover:text-cyan-300 mobile-s:text-[50] md:text-[100px] cursor-pointer"
+                class="text-green-500 hover:text-cyan-300 mobile-m:text-[40px] mobile-s:text-[30px] md:text-[50px] lg:text-[100px] cursor-pointer"
               >
                 ꜜ
               </p>
