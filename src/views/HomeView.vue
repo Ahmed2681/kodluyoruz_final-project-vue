@@ -134,6 +134,14 @@ const goMain = () => {
                   Bir sporcunun bol bol su içmesi ona fazlasıyla artı sağlayacaktır.
                 </li>
                 <li class="pt-[2%]">
+                  Ayrıca bir sporcunun mental sağlığını da iyi tutması gerekir. Aksi halde yaptığı
+                  spordan alacağı verim düşebilir.
+                </li>
+                <li class="pt-[2%]">
+                  Bir başka önemli husus ise DİSİPLİN! Sporcu, ilk önce kafasında disiplini sağlamalı ve
+                  kararlı ve planlı bir şekilde hareket etmeli. Bu yapılmadığı takdirde başarı da sağlayamaz.
+                </li>
+                <li class="pt-[2%]">
                   Tabii ki antrenman yapmak; antrenmanın türü, uzunluğu, zorluğu gibi etkenler de
                   spor hayatınızı etkileyecektir.
                 </li>
