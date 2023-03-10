@@ -138,8 +138,9 @@ const goMain = () => {
                   spordan alacağı verim düşebilir.
                 </li>
                 <li class="pt-[2%]">
-                  Bir başka önemli husus ise DİSİPLİN! Sporcu, ilk önce kafasında disiplini sağlamalı ve
-                  kararlı ve planlı bir şekilde hareket etmeli. Bu yapılmadığı takdirde başarı da sağlayamaz.
+                  Bir başka önemli husus ise DİSİPLİN! Sporcu, ilk önce kafasında disiplini
+                  sağlamalı ve kararlı ve planlı bir şekilde hareket etmeli. Bu yapılmadığı takdirde
+                  başarı da sağlayamaz.
                 </li>
                 <li class="pt-[2%]">
                   Tabii ki antrenman yapmak; antrenmanın türü, uzunluğu, zorluğu gibi etkenler de
@@ -167,13 +168,15 @@ const goMain = () => {
             </div>
             <div class="w-[70%] pt-[2%] text-center">
               <p class="font-mono text-xl font-semibold italic text-gray-700 antialiased">
-                Rekabet gücünü artırmak, boş zamanları geçirmek, günlük aktiviteleri desteklemek,
-                vücuttaki kas deformasyonları ve kas gücü kayıplarını önlemek, felç ve bazı
-                eksiklikleri olan insanların, nörolojik hastaların rehabilitasyonu, eksikliklerini
-                kompanse etmek ve önemlisi sağlık için spor yapılabilir. Özet geçecek olursak spor
-                yapmak hem bedeni hem de zihin yapısını değiştiren bir eylemdir. Düzenli egzersiz,
-                hastalıklara yakalanma riskini azaltarak yaşam kalitenizi artırır. Ayrıca sizi
-                psikolojik olarak rahatlatır.
+                Tabii ki de evde de antrenman yapılabilir. Ama bunu belli bir seviyeye gelmişler
+                için öneririm. Tersi durumunda sakatlık riskinizi tetikleyebilirsiniz. <br />
+                Evde spor yapmanın da salona göre daha disiplinli davranmanızı gerektireceğini,
+                herhangi bir rekabet olamayacağı için rekabete bağlı gelişimi azaltacağını ve
+                sosyalleşmekten mahrum kalacağınızı gerektiğini söylemeliyim. Aynı zamanda bir yerde
+                takılırsanız alanında deneyimli antrönörlerimize de sorabilirsiniz. Evde böyle bir
+                şansınız olmayacaktır. Tabii ki evde yapılan sporun da faydaları vardır. Mesela
+                -özellikle kadın üyelerimiz için- mahremiyet, rahatlık, saat sınırlaması olmadan
+                antrenman yapabilme gibi artıları vardır.
               </p>
             </div>
           </div>
