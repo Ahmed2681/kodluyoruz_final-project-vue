@@ -162,7 +162,7 @@ const goMain = () => {
               <p
                 class="bg-gradient-to-r from-green-300 to-cyan-300 bg-clip-text text-4xl font-[300] italic text-transparent antialiased"
               >
-                Neden Spor Yapmalıyım?
+                Evde Egzersiz Yapabilir Miyim?
               </p>
             </div>
             <div class="w-[70%] pt-[2%] text-center">
