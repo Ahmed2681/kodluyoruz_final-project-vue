@@ -114,21 +114,29 @@ const goMain = () => {
                   almamız gerekir? Aşağıda belirtilen türden besinler spocular için biçilmiş
                   kaftandır.
                 </li>
-                  <ul
-                    class="items-left flex list-disc flex-col justify-start pt-[2%] text-left font-mono text-xl font-semibold italic text-gray-700 antialiased"
-                  >
-                    <li>Protein,</li>
-                    <li>Karbonhidrat</li>
-                    <li>Yağ -sağlıklı olan türdeki- ve</li>
-                    <li>Lif açısından zengin besinler;</li>
-                    <li>İşlenmiş şeker,</li>
-                    <li>İşlenmiş yağ vb. içermeyen ve</li>
-                    <li>Hamur İşi olmayan besinleri genel olarak sayabiliriz.</li>
-                  </ul>
-                <li>Bi</li>
-                <li>dsf</li>
-                <li>dsf</li>
-                <li>cds</li>
+                <ul
+                  class="items-left flex list-disc flex-col justify-start pt-[2%] text-left font-mono text-xl font-semibold italic text-gray-700 antialiased"
+                >
+                  <li>Protein,</li>
+                  <li>Karbonhidrat</li>
+                  <li>Yağ -sağlıklı olan türdeki- ve</li>
+                  <li>Lif açısından zengin besinler;</li>
+                  <li>İşlenmiş şeker,</li>
+                  <li>İşlenmiş yağ vb. içermeyen ve</li>
+                  <li>Hamur İşi olmayan besinleri genel olarak sayabiliriz.</li>
+                </ul>
+                <li class="pt-[2%]">
+                  Bir diğer önemli husus ise uykudur. Bir sporcu, ortalama 8 saat ideal uyku
+                  süresini muhafaza etmelidir.
+                </li>
+                <li class="pt-[2%]">
+                  Su tüketimini de atlayamayacağımız gerçek. Su tüketimi de çok önemli bir husustur.
+                  Bir sporcunun bol bol su içmesi ona fazlasıyla artı sağlayacaktır.
+                </li>
+                <li class="pt-[2%]">
+                  Tabii ki antrenman yapmak; antrenmanın türü, uzunluğu, zorluğu gibi etkenler de
+                  spor hayatınızı etkileyecektir.
+                </li>
               </ol>
             </div>
           </div>
