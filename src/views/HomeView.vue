@@ -1,19 +1,19 @@
 <script setup>
 import HeaderPage from '@/components/HeaderPages.vue'
 import FooterPage from '@/components/FooterPages.vue'
-// import { onMounted } from 'vue'
+import { onMounted } from 'vue'
 
-// onMounted(() => {
-//   const video = document.getElementById('main-video')
+onMounted(() => {
+  const video = document.getElementById('main-video')
 
-//   video.scrollIntoView({ behavior: 'smooth' })
-// })
+  video.scrollIntoView({ behavior: 'smooth' })
+})
 
-// const goMain = () => {
-//   const main = document.getElementById('main')
+const goMain = () => {
+  const main = document.getElementById('main')
 
-//   main.scrollIntoView({ behavior: 'smooth' })
-// }
+  main.scrollIntoView({ behavior: 'smooth' })
+}
 </script>
 
 <template>
@@ -95,19 +95,41 @@ import FooterPage from '@/components/FooterPages.vue'
               <p
                 class="bg-gradient-to-r from-d-brown to-brown bg-clip-text text-4xl font-[300] italic text-transparent antialiased"
               >
-                Neden Spor Yapmalıyım?
+                Bir Sporcu Nelere Dikkat Etmeli?
               </p>
             </div>
             <div class="w-[70%] pt-[2%] text-center">
               <p class="font-mono text-xl font-semibold italic text-gray-700 antialiased">
-                Rekabet gücünü artırmak, boş zamanları geçirmek, günlük aktiviteleri desteklemek,
-                vücuttaki kas deformasyonları ve kas gücü kayıplarını önlemek, felç ve bazı
-                eksiklikleri olan insanların, nörolojik hastaların rehabilitasyonu, eksikliklerini
-                kompanse etmek ve önemlisi sağlık için spor yapılabilir. Özet geçecek olursak spor
-                yapmak hem bedeni hem de zihin yapısını değiştiren bir eylemdir. Düzenli egzersiz,
-                hastalıklara yakalanma riskini azaltarak yaşam kalitenizi artırır. Ayrıca sizi
-                psikolojik olarak rahatlatır.
+                Eğer gerçekten düzenli bir şekilde spor yapmaya başladıysanız elbette hayatınızda
+                daha hassas davranmanız gereken noktalar oluşacaktır. Bunlardan en kritik olanlarını
+                sizin için derledik:
               </p>
+              <ol
+                class="flex list-decimal flex-col items-center justify-center pt-[2%] text-center font-mono text-xl font-semibold italic text-gray-700 antialiased"
+              >
+                <li>
+                  Öncelikle bir sporcu beslenme alışkanlıklarına çok dikkat etmelidir. Bunu en
+                  önemlileri arasına bile alabiliriz. Hatta öyle ki "Spor mutfakta başlar.", gibi
+                  sözler duymuşsunuzdur. Bu da beslenmenin önemini gösterir. Peki ne tür besinler
+                  almamız gerekir? Aşağıda belirtilen türden besinler spocular için biçilmiş
+                  kaftandır.
+                </li>
+                  <ul
+                    class="items-left flex list-disc flex-col justify-start pt-[2%] text-left font-mono text-xl font-semibold italic text-gray-700 antialiased"
+                  >
+                    <li>Protein,</li>
+                    <li>Karbonhidrat</li>
+                    <li>Yağ -sağlıklı olan türdeki- ve</li>
+                    <li>Lif açısından zengin besinler;</li>
+                    <li>İşlenmiş şeker,</li>
+                    <li>İşlenmiş yağ vb. içermeyen ve</li>
+                    <li>Hamur İşi olmayan besinleri genel olarak sayabiliriz.</li>
+                  </ul>
+                <li>Bi</li>
+                <li>dsf</li>
+                <li>dsf</li>
+                <li>cds</li>
+              </ol>
             </div>
           </div>
           <div
