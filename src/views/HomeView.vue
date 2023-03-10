@@ -162,8 +162,12 @@ const goMain = () => {
                   başarı da sağlayamaz.
                 </li>
                 <div class="flex flex-row items-center justify-center text-center">
-                  <div class="invisible md:static absolute 2xl:max-w-[15%] max-w-[30%] md:visible">
-                    <img class="rounded-xl lg:rounded-3xl" src="../img/high-weight.jpeg" alt="high-weight" />
+                  <div class="invisible absolute max-w-[30%] md:visible md:static 2xl:max-w-[15%]">
+                    <img
+                      class="rounded-xl lg:rounded-3xl"
+                      src="../img/high-weight.jpeg"
+                      alt="high-weight"
+                    />
                   </div>
                   <div class="ml-[6%]">
                     <li class="pt-[2%]">
@@ -212,6 +216,22 @@ const goMain = () => {
             <p class="font-serif text-2xl italic text-cyan-50 antialiased">
               Ya bir gün ya da birinci gün... Karar senin.
             </p>
+          </div>
+        </article>
+        <article class="pb-[5%]">
+          <div class="flex flex-col items-center justify-center">
+            <div>
+              <p
+                class="bg-gradient-to-r from-cyan-300 to-[#0F6292] bg-clip-text text-center text-4xl font-[300] italic text-transparent antialiased"
+              >
+                Seni De Aramızda Görmek İçin Sabırsızlanıyoruz!
+              </p>
+            </div>
+            <div class="w-[70%] pt-[2%] text-center">
+              <p class="font-mono text-xl font-semibold italic text-gray-700 antialiased">
+                Aramıza katılmak için hiçbir zaman geç değil! Sen de yazılımcıysan ve kafa dengi spor arkadaşları arıyorsan burası tam sana göre! Hem sınırsız kahve imkanı da seninle. En kısa zamanda görüşmek dilekleriyle. SĞporla kal, sağlıkla kal...
+              </p>
+            </div>
           </div>
         </article>
       </div>
