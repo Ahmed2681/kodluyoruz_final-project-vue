@@ -161,10 +161,17 @@ const goMain = () => {
                   sağlamalı ve kararlı ve planlı bir şekilde hareket etmeli. Bu yapılmadığı takdirde
                   başarı da sağlayamaz.
                 </li>
-                <li class="pt-[2%]">
-                  Tabii ki antrenman yapmak; antrenmanın türü, uzunluğu, zorluğu gibi etkenler de
-                  spor hayatınızı etkileyecektir.
-                </li>
+                <div class="flex flex-row items-center justify-center text-center">
+                  <div class="invisible md:static absolute 2xl:max-w-[15%] max-w-[30%] md:visible">
+                    <img class="rounded-xl lg:rounded-3xl" src="../img/high-weight.jpeg" alt="high-weight" />
+                  </div>
+                  <div class="ml-[6%]">
+                    <li class="pt-[2%]">
+                      Tabii ki antrenman yapmak; antrenmanın türü, uzunluğu, zorluğu gibi etkenler
+                      de spor hayatınızı etkileyecektir.
+                    </li>
+                  </div>
+                </div>
               </ol>
             </div>
           </div>
