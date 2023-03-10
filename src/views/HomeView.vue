@@ -61,24 +61,29 @@ const goMain = () => {
           </div>
         </section>
         <article class="pt-[60%]">
-          <div id="main" class="flex flex-col items-center justify-center">
+          <div id="main" class="flex flex-col items-center justify-center text-center">
             <div>
               <p
-                class="bg-gradient-to-r from-cyan-300 to-green-300 bg-clip-text text-4xl font-[300] italic text-transparent antialiased"
+                class="bg-gradient-to-r from-cyan-300 to-green-300 bg-clip-text text-center text-4xl font-[300] italic text-transparent antialiased"
               >
                 Neden Spor Yapmalıyım?
               </p>
             </div>
-            <div class="w-[70%] pt-[2%] text-center">
-              <p class="font-mono text-xl font-semibold italic text-gray-700 antialiased">
-                Rekabet gücünü artırmak, boş zamanları geçirmek, günlük aktiviteleri desteklemek,
-                vücuttaki kas deformasyonları ve kas gücü kayıplarını önlemek, felç ve bazı
-                eksiklikleri olan insanların, nörolojik hastaların rehabilitasyonu, eksikliklerini
-                kompanse etmek ve önemlisi sağlık için spor yapılabilir. Özet geçecek olursak spor
-                yapmak hem bedeni hem de zihin yapısını değiştiren bir eylemdir. Düzenli egzersiz,
-                hastalıklara yakalanma riskini azaltarak yaşam kalitenizi artırır. Ayrıca sizi
-                psikolojik olarak rahatlatır.
-              </p>
+            <div class="flex flex-row items-center justify-center text-center">
+              <div class="w-[70%] pt-[2%] text-center md:w-[50%]">
+                <p class="font-mono text-xl font-semibold italic text-gray-700 antialiased">
+                  Rekabet gücünü artırmak, boş zamanları geçirmek, günlük aktiviteleri desteklemek,
+                  vücuttaki kas deformasyonları ve kas gücü kayıplarını önlemek, felç ve bazı
+                  eksiklikleri olan insanların, nörolojik hastaların rehabilitasyonu, eksikliklerini
+                  kompanse etmek ve önemlisi sağlık için spor yapılabilir. Özet geçecek olursak spor
+                  yapmak hem bedeni hem de zihin yapısını değiştiren bir eylemdir. Düzenli egzersiz,
+                  hastalıklara yakalanma riskini azaltarak yaşam kalitenizi artırır. Ayrıca sizi
+                  psikolojik olarak rahatlatır.
+                </p>
+              </div>
+              <div class="invisible absolute ml-[5%] md:visible md:static">
+                <img class="rounded-3xl" src="../img/dumbbell.jpeg" alt="dumbbell" />
+              </div>
             </div>
           </div>
           <div
@@ -93,7 +98,7 @@ const goMain = () => {
           <div class="flex flex-col items-center justify-center">
             <div>
               <p
-                class="bg-gradient-to-r from-d-brown to-brown bg-clip-text text-4xl font-[300] italic text-transparent antialiased"
+                class="bg-gradient-to-r from-d-brown to-brown bg-clip-text text-center text-4xl font-[300] italic text-transparent antialiased"
               >
                 Bir Sporcu Nelere Dikkat Etmeli?
               </p>
@@ -104,6 +109,7 @@ const goMain = () => {
                 daha hassas davranmanız gereken noktalar oluşacaktır. Bunlardan en kritik olanlarını
                 sizin için derledik:
               </p>
+
               <ol
                 class="flex list-decimal flex-col items-center justify-center pt-[2%] text-center font-mono text-xl font-semibold italic text-gray-700 antialiased"
               >
@@ -114,17 +120,30 @@ const goMain = () => {
                   almamız gerekir? Aşağıda belirtilen türden besinler spocular için biçilmiş
                   kaftandır.
                 </li>
-                <ul
-                  class="items-left flex list-disc flex-col justify-start pt-[2%] text-left font-mono text-xl font-semibold italic text-gray-700 antialiased"
-                >
-                  <li>Protein,</li>
-                  <li>Karbonhidrat</li>
-                  <li>Yağ -sağlıklı olan türdeki- ve</li>
-                  <li>Lif açısından zengin besinler;</li>
-                  <li>İşlenmiş şeker,</li>
-                  <li>İşlenmiş yağ vb. içermeyen ve</li>
-                  <li>Hamur İşi olmayan besinleri genel olarak sayabiliriz.</li>
-                </ul>
+                <div class="flex flex-row items-center justify-center text-center">
+                  <div>
+                    <ul
+                      class="items-left flex list-disc flex-col justify-start pt-[2%] text-left font-mono text-xl font-semibold italic text-gray-700 antialiased"
+                    >
+                      <li>Protein,</li>
+                      <li>Karbonhidrat</li>
+                      <li>Yağ -sağlıklı olan türdeki- ve</li>
+                      <li>Lif açısından zengin besinler;</li>
+                      <li>İşlenmiş şeker,</li>
+                      <li>İşlenmiş yağ vb. içermeyen ve</li>
+                      <li>Hamur İşi olmayan besinleri genel olarak sayabiliriz.</li>
+                    </ul>
+                  </div>
+                  <div
+                    class="invisible absolute max-w-[30%] md:visible md:static lg:max-w-[25%] 2xl:max-w-[15%]"
+                  >
+                    <img
+                      class="rounded-xl lg:rounded-3xl"
+                      src="../img/sports-nutrition.jpeg"
+                      alt="nutrition"
+                    />
+                  </div>
+                </div>
                 <li class="pt-[2%]">
                   Bir diğer önemli husus ise uykudur. Bir sporcu, ortalama 8 saat ideal uyku
                   süresini muhafaza etmelidir.
@@ -161,7 +180,7 @@ const goMain = () => {
           <div class="flex flex-col items-center justify-center">
             <div>
               <p
-                class="bg-gradient-to-r from-green-300 to-cyan-300 bg-clip-text text-4xl font-[300] italic text-transparent antialiased"
+                class="bg-gradient-to-r from-green-300 to-cyan-300 bg-clip-text text-center text-4xl font-[300] italic text-transparent antialiased"
               >
                 Evde Egzersiz Yapabilir Miyim?
               </p>
