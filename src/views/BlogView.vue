@@ -9,7 +9,9 @@ import FooterPage from '@/components/FooterPages.vue'
       <header-page />
     </header>
 
-    <main class="w-full bg-cyan-50 pt-[5%] pb-[5%]">
+    <main
+      class="flex w-full flex-col items-center justify-center bg-cyan-50 pt-[5%] pb-[5%] text-center"
+    >
       <section class="mt-[3%] flex flex-row items-center justify-center text-center">
         <p class="text-[60px] font-[550]">&lt;</p>
         <p
@@ -18,12 +20,43 @@ import FooterPage from '@/components/FooterPages.vue'
           Naim Süleymanoğlu
         </p>
         <hr
-          class="invisible absolute mt-[0.8%] rounded-full border-[6px] border-gray-500 md:visible md:static md:min-w-[70%] lg:mt-[0.6%] lg:min-w-[50%] 2xl:mt-[0.4%]"
+          class="invisible absolute mt-[0.8%] rounded-full border-[6px] border-gray-500 md:visible md:static md:min-w-[520px] lg:mt-[0.6%] lg:min-w-[600px] 2xl:mt-[0.4%]"
         />
         <p class="text-[60px] font-[550]">></p>
       </section>
 
-      <div></div>
+      <article
+        class="mt-[4%] flex w-[60%] items-center justify-center text-center font-mono text-2xl antialiased"
+      >
+        Naim Süleymanoğlu (23 Ocak 1967, Kırcaali - 18 Kasım 2017, İstanbul), Türk haltercidir.
+        Birçok otoriteye göre tüm zamanların en iyi haltercisi olarak kabul edilir. Yapıca ufak
+        tefek ancak çok güçlü olması nedeniyle Cep Herkül'ü olarak anılan Naim Süleymanoğlu, Türk
+        Süpermen adıyla da anılır.
+      </article>
+
+      <br />
+
+      <article
+        class="flex w-[60%] items-center justify-center text-center font-mono text-2xl antialiased"
+      >
+        Haltere 1977'de, 10 yaşındayken başladı. 15 yaşındayken Brezilya'da düzenlenen Dünya Gençler
+        Halter Şampiyonası'nda iki altın madalya alarak şampiyon oldu. 16 yaşında rekor kırarak yine
+        şampiyon oldu. Böylece halter tarihinde en genç dünya rekortmeni unvanını aldı. Kariyeri
+        boyunca 3 altın olimpiyat madalyası, 7 dünya şampiyonluğu ve 6 Avrupa şampiyonluğu vardır.
+        Tam 46 kere dünya rekoru kırmıştır. 1984 yılında (16 yaşındayken), silkme kategorisinde
+        vücut ağırlığının üç katını kaldıran ikinci halterci olarak tarihe geçti. 1983-1986 arasında
+        gençlerde 13, büyüklerde 50 olmak üzere tam 63 rekor kırarken yine bu dönemde dünya ve
+        Avrupa şampiyonalarında 52, 56 ve 60 kilolarda şampiyonluklar yaşadı. 1984, 1985 ve 1986'da
+        dünyada yılın haltercisi seçildi. <br />
+        <br />
+        1984 Los Angeles Olimpiyatları'na Bulgaristan'ın da Sovyetlerle boykotta yer alması
+        nedeniyle katılamadı. Bu dönemde Bulgar Hükûmetinin Soya Dönüş Operasyonu kapsamında Türk
+        isimlerini yasaklaması nedeniyle adı Naum Şalamanov olarak değiştirildi. Bulgaristan'daki bu
+        baskılardan kurtulmak ve Türkiye adına müsabakalara katılmak için 1986'da Melbourne'de
+        düzenlenen Dünya Halter Şampiyonası'nda Türkiye büyükelçiliğine sığınarak Türkiye'ye iltica
+        etti. Türkiye'ye ilticasında ve getirilmesinde bizzat Turgut Özal devreye girdi. Naim
+        Süleymanoğlu 18 Kasım 2017 günü tedavi gördüğü hastanede 50 yaşında hayatını kaybetti.
+      </article>
     </main>
 
     <footer>
