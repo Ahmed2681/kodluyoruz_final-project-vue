@@ -36,7 +36,7 @@
         </div>
 
         <div class="flex flex-col pt-[10%]">
-          <a href="/">
+          <a href="/soon">
             <input
               type="submit"
               value="Giriş Yap"
