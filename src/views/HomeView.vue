@@ -229,7 +229,9 @@ const goMain = () => {
             </div>
             <div class="w-[70%] pt-[2%] text-center">
               <p class="font-mono text-xl font-semibold italic text-gray-700 antialiased">
-                Aramıza katılmak için hiçbir zaman geç değil! Sen de yazılımcıysan ve kafa dengi spor arkadaşları arıyorsan burası tam sana göre! Hem sınırsız kahve imkanı da seninle. En kısa zamanda görüşmek dilekleriyle. SĞporla kal, sağlıkla kal...
+                Aramıza katılmak için hiçbir zaman geç değil! Sen de yazılımcıysan ve kafa dengi
+                spor arkadaşları arıyorsan burası tam sana göre! Hem sınırsız kahve imkanı da
+                seninle. En kısa zamanda görüşmek dilekleriyle. SĞporla kal, sağlıkla kal...
               </p>
             </div>
           </div>
